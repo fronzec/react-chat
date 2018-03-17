@@ -1,0 +1,21 @@
+{
+  "name": "chat-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "chance": "^1.0.13",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "socket.io-client": "^2.0.4"
+  },
+  "scripts": {
+    "start": "concurrently \"node server/app.js\" \"react-scripts start\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
