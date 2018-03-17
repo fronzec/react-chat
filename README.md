@@ -7,10 +7,11 @@ Use [nodemon](nodemon.io) durante el desarrollo, esta utilidad permite reestable
 ## Frontend
 El proyecto fue generado con [Create React App](https://github.com/facebookincubator/create-react-app).
 Construido usando [react](reactjs.org) y usando [Bootstrap](https://getbootstrap.com) para la UI.
+Para la generación de los nombres usé [Chance](http://chancejs.com/)
 
 ## Como usar el chat
 Usé [concurrently](https://github.com/kimmobrunfeldt/concurrently) para levantar el servidor de backend y la aplicación de react al mismo tiempo
-solo hay que ejecutar el siguiente comando sobre el root del proyecto.
+, solo hay que ejecutar el siguiente comando sobre el root del proyecto.
 ```
 npm start
 ```
